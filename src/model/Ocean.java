@@ -100,7 +100,7 @@ public class Ocean {
 //		oceanObjects.removeIf(myPredicate);
 		
 		// Ansatz 2c: Wir sparen uns auch die Deklaration des Predicate
-//		oceanObjects.removeIf(o -> o.dead);
+		oceanObjects.removeIf(o -> o.dead);
 	}
 
 	public void generateBubble() {
